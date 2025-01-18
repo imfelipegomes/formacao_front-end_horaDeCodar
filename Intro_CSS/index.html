@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+    <link rel="stylesheet" href="../Intro_CSS/css/index.css"> <!-- Podemos importar mais de um arquivo .css, mas a prioridade é o importado por último na ordem -->
+    <link rel="stylesheet" href="../Intro_CSS/css/desafio2CSS.css">
+
+    <!-- 2- Internal CSS -->
+    <style>
+        h2 {
+            color: blue;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1- Inline CSS -->
+    <h1 style="color: red; font-size: 55px;">Mudando cor e tamanho da fonte com Inline</h1>
+
+    <!-- 2- Internal CSS -->
+    <h2>Mudando cor e tamanho da fonte com Internal</h2>
+
+    <!-- 3- External CSS -->
+    <h3>Mudando cor e tamanho da fonte com External</h3>
+
+    <h4>Este subtítulo serve para o projeto 2</h4>
+
+    <!-- ! E qual é a melhor forma: Inline, Internal ou External? Depende de vários fatores, o mais recomendado é o External, pois, o código fica mais limpo e centralizado num local só, se for uma simples mudança, não há problemas em usar Inline e Internal, mas sempre dê preferência para o External. -->
+
+    <!--! Se utilizados as 3 formas, lembre-se que há uma orderm e eles podem se sobresair um ao ouro, o Inline é o mais forte e pode sobreescrever o Internal e External que são iguais, mas lembre-se, não é indicado misturar, escolha uma. -->
+
+    <!-- CLASSES -->
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!-- ID -->
+    <h1 id="exclusive-title">Esté é um título com Id</h1>
+
+    <!-- As Classes são para elementos que se repetem e o Id é para elemento único, essa é a diferença entre eles -->
+
+    <!-- Multiplas regras, ordem do CSS-->
+    <h5 id="other-title" class="title">Algum texto 1</h5>
+    <h5 class="title">Algum texto 2</h5>
+    <h5>Algum texto 3</h5>
+
+
+    <!-- Tipos de cores mais usadas: HEX > RGB > > HSL > NOME-->
+    
+    <!-- Por nome -->
+    <p class="color-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus nesciunt quod, quibusdam aspernatur corrupti laboriosam quis asperiores, fugiat tempora itaque ullam eius voluptas aliquam dolor esse atque libero unde?</p>
+
+    <!-- HEX -->
+    <p class="hex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci explicabo iure libero, maiores repellat laboriosam? Magni, enim? Consectetur tenetur voluptatibus consequatur, quae totam quidem, iure ad dolores quo, numquam autem.</p>
+
+    <p class="hex2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, non praesentium voluptatibus magnam laudantium mollitia incidunt, at quas nihil fugit molestias iure! Est quidem porro aliquid ab harum error earum.</p>
+    
+    <!-- RGB -->
+    <p class="rgb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium nihil ea corporis, asperiores modi dolore fuga fugit est enim quibusdam temporibus architecto. Id illum, cupiditate optio dolores aspernatur dolorum!</p>
+
+    <p class="rgba">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quasi nulla placeat esse rem, saepe qui sit aliquid consectetur, ea assumenda numquam et praesentium repellendus quod repudiandae distinctio dolor libero?</p>
+
+    <p class="hsl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, minus. Quam optio aut, eius esse cumque sit, ducimus corporis ea animi, eos aspernatur dicta fugiat recusandae ipsum vel quis voluptatibus!</p>
+
+    <h3 class="bg-c">Meu background-color com cor</h3>
+
+    <!-- Background com opacidade -->
+    <div>
+        <p class="bg-opacity">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia enim optio illum accusantium excepturi repellat. Et est quae non beatae, esse ducimus fugiat veniam aliquid molestias, possimus asperiores sapiente unde!</p>
+
+        <p class="rgba-opacity">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum repellendus explicabo in quisquam deserunt quas eaque. Architecto ullam fuga totam corporis vero, doloremque consequatur quibusdam repudiandae officia autem, est facere?</p>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- bg-image-->
+    <h2 class="bg-image">Este título tem uma imagem</h2>
+
+    <!-- bg-mage centralizar -->
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <!-- Box Model -->
+    <!-- Altura e Largura -->
+    <div class="height-width"></div>
+    <div class="height-width2"></div>
+
+    <!-- Padding -->
+    <div class="without-padding">Este não tem padding > Observe que não há um respiro ou espaçamento interno</div>
+    <div class="padding">Este tem padding > Observe o espaçamento interno em volta do texto</div>
+
+    <p class="padding-individual">Este elemento tem paddings diferentes</p>
+
+    <!-- border -->
+    <div>
+        <div class="border">Borda 1</div>
+        <br>
+        <div class="border2">Borda 2</div>
+    </div>
+        <br>
+        <p class="border-left">Borda na esquerda</p>
+        <p class="border-bottom">Borda inferior</p>
+        <br>
+        <div class="rounded-p">Eu estou arredondado</div>
+        <br>
+        <div class="rounded-p2">Eu estou arredondado</div>
+        <br>
+
+        <!-- margin ou margem -->
+        <div class="margin">Eu tenho margem</div>
+        <div class="margin-top">Eu tenho margem no topo</div>
+        <div class="margin-shorthand">Eu estou utilizando shorthand para adicionar margem</div>
+
+        <br>
+        <div class="box-model">
+            <p>Tenho todas as propriedades Box Model</p>
+        </div>
+</body>
+</html>

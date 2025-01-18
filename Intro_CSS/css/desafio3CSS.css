@@ -1,0 +1,14 @@
+#box-model-desafio3 {
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(57, 113, 197);
+    border-radius: 8px;
+    width: 1000px;
+    height: 500px;
+    outline: 4px solid;
+    outline-color: chartreuse;
+}
+
+.text-h2 {
+    background-color: yellowgreen;
+}
