@@ -5,16 +5,13 @@ html {
     background-color: #ddd;
 }
 
-h2 {
-    font-weight: bold;
-}
-
 .container {
     max-width: 1100px;
     background-color: #fff;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
+    border: 1px dashed orangered;
 }
 
 /* Header */
@@ -102,4 +99,5 @@ h2 {
 
 .moreinfo-container a {
     font-weight: bold;
+    color: orangered;
 }
