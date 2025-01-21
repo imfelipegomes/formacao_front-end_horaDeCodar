@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+    <link rel="stylesheet" href="/Forms/css/styles.css">
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+    <!-- 1- Primeiro formulário -->
+    <!-- 2- Atributos do formulário -->
+    <form action="/register.php" method="POST">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <!-- 3- Atributo name-->
+        <div>
+            <!-- 4- Atributo label -->
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 5- Envio de form -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
