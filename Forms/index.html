@@ -9,12 +9,14 @@
 <body>
     <h1>Formulários HTML</h1>
     <!-- 1- Primeiro formulário -->
+    
     <!-- 2- Atributos do formulário -->
     <form action="/register.php" method="POST">
         <div>
             <label>Nome:</label>
             <input type="text">
         </div>
+
         <!-- 3- Atributo name-->
         <div>
             <!-- 4- Atributo label -->
@@ -31,6 +33,7 @@
                 <option value="devops">DevOps</option>
             </select>
         </div>
+
         <!-- 7- Atributo selected -->
         <div>
             <label for="contract">Você leu os termos de contrato?</label>
@@ -39,6 +42,7 @@
                 <option value="nao" selected>Não</option>
             </select>
         </div>
+
         <!-- 8 Multiplas opções -->
         <div>
             <label for="items">Selecione os itens desejados:</label>
@@ -49,11 +53,13 @@
                 <option value="biscoito">Biscoito</option>
             </select>
         </div>
+
         <!-- 9- textarea -->
         <div>
             <label for="comment">Escreva abaixo o que você achou do post?</label>
             <textarea name="comment"></textarea>
         </div>
+
         <!-- 10- fieldset e legend -->
         <div>
             <fieldset>
@@ -64,6 +70,7 @@
                 <input type="text" name="lastname">
             </fieldset>
         </div>
+
         <!-- 11- datalist -->
         <div>
             <label for="flavor">Escolha o sabor:</label>
@@ -76,13 +83,78 @@
                 <option value="Maracuja"></option>
             </datalist>
         </div>
+
         <!-- 12- password -->
         <div>
             <label for="password">Digite a sua senha:</label>
             <input type="password" name="password">
         </div>
+
         <!-- 13- reset form -->
         <input type="reset" value="Limpar">
+
+        <!-- 14- radio button -->
+        <div>
+            <label for="car_model">Escolha o modelo do seu veículo:</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car_model">
+                <label for="bmw">BMW</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" value="vw" name="car_model">
+                <label for="vw">VW</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" value="ford" name="car_model">
+                <label for="ford">Ford</label>
+            </div>
+        </div>
+
+        <!-- 15- checkbox -->
+        <div>
+            <label for="optionals">Opcionais do veículo:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
+
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="turbo_engine">
+                <label for="turbo_engine">Motor Turbo</label>
+            </div>
+
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="airfoil">
+                <label for="airfoil">Aerofólio</label>
+            </div>
+        </div>
+
+        <!-- 16- datas -->
+        <div>
+            <label for="birthday">Data de aniversário:</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <!-- 17- documents -->
+        <div>
+            <label for="image">Insira a sua imagem</label>
+            <input type="file" name="image">
+        </div>
+
+        <!-- 18- numeros-->
+        <div>
+            <label for="salary">Quanto você ganha no seu emprego atual?</label>
+            <input type="number" name="salary">
+        </div>
+
+        <!-- 19- email -->
+        <div>
+            <label for="email">Digite o seu e-mail:</label>
+            <input type="email" value="email">
+        </div>
+
         <!-- 5- Envio de form -->
         <input type="submit" value="Enviar">
     </form>
