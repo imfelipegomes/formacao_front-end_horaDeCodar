@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", serif;
+}
+
+:root {
+    --bg-color-silver: #eee9e9;
+    --font-color-black: #2e2e2e;
+    --paragraph-and-label-color: #5a5a5a;
+    --bg-color-header: #ef6a13;
+}
+
+body {
+    background-color: var(--bg-color-silver);
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--font-color-black);
+}
+
+p, label {
+    color: var(--paragraph-and-label-color);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 400px;
+}
+
+/* Header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: var(--bg-color-header);
+}
+
+.header h3 {
+    color: white;
+    margin-top: 0;
+}
+
+/* Form container */
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
