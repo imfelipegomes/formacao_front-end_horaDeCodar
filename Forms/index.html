@@ -21,6 +21,68 @@
             <label for="age">Idade:</label>
             <input type="text" name="age">
         </div>
+
+        <!-- 6- Select-->
+        <div>
+            <label for="job">Selecione a sua profissão:</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+        <!-- 7- Atributo selected -->
+        <div>
+            <label for="contract">Você leu os termos de contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <!-- 8 Multiplas opções -->
+        <div>
+            <label for="items">Selecione os itens desejados:</label>
+            <select name="items" multiple>
+                <option value="pera">Pêra</option>
+                <option value="feijao">Feijão</option>
+                <option value="milho">Milho</option>
+                <option value="biscoito">Biscoito</option>
+            </select>
+        </div>
+        <!-- 9- textarea -->
+        <div>
+            <label for="comment">Escreva abaixo o que você achou do post?</label>
+            <textarea name="comment"></textarea>
+        </div>
+        <!-- 10- fieldset e legend -->
+        <div>
+            <fieldset>
+                <legend>Preencha as suas informações</legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="fisrtname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+        <!-- 11- datalist -->
+        <div>
+            <label for="flavor">Escolha o sabor:</label>
+            <input type="text" list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Chocolate"></option>
+                <option value="Maracuja"></option>
+            </datalist>
+        </div>
+        <!-- 12- password -->
+        <div>
+            <label for="password">Digite a sua senha:</label>
+            <input type="password" name="password">
+        </div>
+        <!-- 13- reset form -->
+        <input type="reset" value="Limpar">
         <!-- 5- Envio de form -->
         <input type="submit" value="Enviar">
     </form>
