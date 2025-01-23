@@ -64,3 +64,76 @@ textarea {
     position: relative;
     top: -62px;
 }
+
+/* form header */
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: var(--bg-color-header);
+    border-bottom: 2px solid var(--bg-color-header);
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form body */
+.form-body {
+    padding: 40px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: var(--bg-color-header);
+    color: white;
+    border: 2px solid transparent;
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    border-color: var(--bg-color-header);
+    color: var(--bg-color-header);
+}
