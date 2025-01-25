@@ -202,9 +202,7 @@ nav {
 }
 
 .plan .plan-name {
-    text-transform: uppercase;
     font-size: 23px;
-    font-weight: bold;
     color: #Fff;
     background-color: #131b15;
     padding: 50px 0;
@@ -261,17 +259,18 @@ nav {
 
 .searchdomain-container input[type="submit"] {
     background-color: #71be2d;
-    padding: 17px 40px;
+    padding: 19px 40px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
     border-radius: 5px;
-    opacity: .9;
+    border: 2px solid #fff;
+    text-transform: uppercase;
 }
 
 .searchdomain-container input[type="submit"]:hover {
-    opacity: .7;
+    opacity: .9;
 }
 
 /* Contact form */
@@ -322,4 +321,10 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 50px;
+}
+
+footer a {
+    color: #71be2d;
+    text-decoration: none;
+    font-weight: bold;
 }
