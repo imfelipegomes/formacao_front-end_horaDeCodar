@@ -1,0 +1,53 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Containers */
+#main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+#form-container {
+    flex: 1 1 0;
+    width: 50%;
+    text-align: center;
+}
+
+/* Login Form */
+#form-box {
+    background-color: #000;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #000;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
