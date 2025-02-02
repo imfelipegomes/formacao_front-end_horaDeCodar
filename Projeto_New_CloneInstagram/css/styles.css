@@ -12,12 +12,14 @@ body {
 
 /* Containers */
 #main-container {
-    display: flex;
-    margin-top: 30px;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
 }
 
 #form-container {
-    text-align: center;
+    flex: 1 1 0;
+    width: 50%;
 }
 
 /* Login Form */
@@ -25,6 +27,8 @@ body {
     background-color: #000;
     border: 1px solid #777777;
     width: 350px;
+    margin-left: 80%;
+    margin-top: 20px;
 }
 
 #logo-insta {
@@ -56,7 +60,6 @@ body {
     font-size: 13px;
     padding: 0;
     font-weight: bold;
-    margin-top: 13px;
 }
 
 /* Separador */
@@ -77,8 +80,9 @@ body {
     background-color: #000;
     top: -6px;
     width: 50px;
+    margin-left: -25px;
     font-size: 12px;
-    margin: 0 0 30%;
+    font-weight: bold;
 }
 
 /* Facebook Login */
@@ -128,6 +132,7 @@ body {
     width: 350px;
     margin-top: 10px;
     padding: 28px;
+    margin-left: 80%;
 }
 
 #register-container p {
@@ -145,6 +150,7 @@ body {
 #get-app-container {
     text-align: center;
     width: 350px;
+    margin-left: 80%;
 }
 
 #get-app-container p {
