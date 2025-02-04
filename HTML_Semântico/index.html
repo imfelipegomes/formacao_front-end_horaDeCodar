@@ -7,15 +7,19 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header> <!-- É basicamente o cabeçalho, um conteúdo introdutório -->
         <h2>Nosso site (Título ou logo)</h2>
-        <ul>
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Contato</li>
-        </ul>
+        <!-- Nav --> <!-- Posso utilizar apenas <a href="#">Home</a> ao invés de ul e li, semânticamente, eu não seria penalizado -->
+        <nav> <!-- Navegação ou menu que aponta para outras páginas ou áreas do nosso site -->
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
     </header>
-    <!-- Section --> <!-- Agrupar containers e seções do nosso site -->
+    <main> <!-- Main é o conteúdo principal de uma página dentro do body, deve ser usado apenas 1 vez por página -->
+    <!-- Section --> <!-- Agrupar containers e seções do nosso site. Representa uma seção genérica, quando não existir um elemento semântico mais específico para representá-lo. -->
     <section>
         <h2>Veja os nossos produtos:</h2>
         <p>Produto 1</p>
@@ -32,7 +36,7 @@
         <p>Diferencial 4</p>
     </section>
 
-    <!-- Article -->
+    <!-- Article --> <!-- Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente. -->
     <section>
         <h2>Últimos posts do blog:</h2>
         <article>
@@ -41,8 +45,24 @@
             <a href="#">Ler conteúdo</a>
         </article>
     </section>
-
-    <!-- Footer -->
+    </main>
+    <!-- Aside -->
+    <aside> <!-- Pode ser utilizado como um conteúdo relacionado ao conteúdo principal, exemplo: Ele pode ser o filtro de um site que vende produtos esportivos, aquele mesmo que realiza a filtragem por tamanho, cor, medidas, clubes e etc. Essas seções são, muitas vezes, representadas como barras laterais. -->
+        <h4>Categorias:</h4>
+        <ul>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">React</a></li>
+            <li><a href="#">Node</a></li>
+        </ul>
+    </aside>
+    <!-- Mark é usado quando quero dar relevância a um texto para minha página e nõo é como span -->
+    <mark>Temos neste texto um conteúdo importante que precisa ser marcado</mark>
+    <!-- Figure e Figcaption -->
+    <figure>
+        <img src="/HTML_Semântico/img/lambo.jpg" alt="Lamborghini">
+        <figcaption>Uma Lamborghini amarela na rua</figcaption>
+    </figure>
+    <!-- Footer --> <!-- É basicamente o rodapé -->
     <footer>
         <div>
             <h2>Entre em contato:</h2>
