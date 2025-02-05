@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: #37a1f7;
+    color: orangered;
 }
 
 /* navbar */
@@ -105,4 +105,39 @@ a:hover {
 #search-bar input {
     padding: 0.5rem;
     border: 1px solid#ddd;
+}
+
+#search-bar input[type="submit"] {
+    cursor: pointer;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+}
+
+#categories li {
+    margin-bottom: 1rem;
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+#tags-container a {
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+/* footer */
+#footer {
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+
+#footer h2,
+#footer p {
+    margin-bottom: 1rem;
 }
