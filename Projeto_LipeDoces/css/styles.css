@@ -1,3 +1,4 @@
+/* Geral*/
 * {
     padding: 0;
     margin: 0;
@@ -10,8 +11,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root {
-    color-primary-white: #fff;
-    color-primary-black: #000;
-    color-primary-orange: #e5690e;
     title-standard-h2-h3: "Shadows Into Light", sans-serif;
+}
+
+a {
+    transition: .5s;
+}
+
+/* sidebar */
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    padding-top: 40px;
+    background-color: #e5690e;
+}
+
+#sidebar h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#sidebar a:hover {
+    color: #000;
+}
+
+#sidebar li {
+    padding: 10px;
+    text-align: center;
+}
+
+#sidebar img {
+    width: 250px;
+    height: 180px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
