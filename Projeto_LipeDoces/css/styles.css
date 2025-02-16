@@ -53,7 +53,7 @@ a {
 
 #sidebar img {
     width: 250px;
-    height: 180px;
+    height: 220px;
     display: block;
     position: relative;
     margin-left: auto;
@@ -295,3 +295,5 @@ footer p {
     text-align: center;
     font-weight: bold;
 }
+
+/* about page */
