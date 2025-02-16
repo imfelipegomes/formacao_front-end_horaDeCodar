@@ -257,3 +257,41 @@ a {
     background-image: url(../img/galeria12.jpg);
     margin-right: 0;
 }
+
+/* Contact */
+#ss-ctt {
+    width: 500px;
+}
+
+#ss-ctt input[type="text"], #ss-ctt input[type="email"], #ss-ctt textarea {
+    display: block;
+    border: 1px solid #e5690e;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#ss-ctt input[type="text"]:focus, #ss-ctt input[type="email"]:focus, #ss-ctt textarea:focus {
+    border-color: #f38a3f;
+}
+
+#ss-ctt input[type="submit"] {
+    margin-left: 0;
+    font-size: 19px;
+    font-weight: bold;
+    width: 180px;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    color: #e5690e;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
