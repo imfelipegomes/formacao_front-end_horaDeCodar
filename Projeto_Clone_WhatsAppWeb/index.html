@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Clone do WhatsApp Web</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/57101e9622.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="./img/avatar1.png">
+                <div class="auxicons-toolbar-">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="notification-container">
+                <i class="fas fa-bell-slash"></i>
+                <p class="receive-notification">Receba notificações de novas mensagens</p>
+                <p class="activate-notification">Ativar notificações na área de trabalho <i class="fas fa-angle-right"></i></p>
+            </div>
+            <div class="seacrh-container">
+                <i id="contact-search" class="fas fa-search"></i>
+                <input type="text" name="search" placeholder="Procurar ou começar uma nova conversa">
+            </div>
+            <div class="contacts-container">
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="./img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Joyce Lima (Amor)</p>
+                        <p class="user-messagepreview"> <i class="fas fa-check-double"></i> Oi Amor, tudo bem?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">07:40h</p>
+                    </div>
+
+                    <div class="contact-box">
+                        <img class="user-photo" src="./img/avatar4.png">
+                        <div class="user-info">
+                            <p class="user-name">Luzia (Mãe)</p>
+                            <p class="user-messagepreview">Oi Filho, amanhã cedo, pego o Voo para São Paulo</p>
+                        </div>
+                        <div class="message-info">
+                            <p class="message-time">19:20h</p>
+                            <p class="message-pending">2</p>
+                        </div>
+
+                        <div class="contact-box">
+                            <img class="user-photo" src="./img/avatar3.png">
+                            <div class="user-info">
+                                <p class="user-name">José (Pai)</p>
+                                <p class="user-messagepreview">Eae Filhão, passa aqui em casa para conversarmos!</p>
+                            </div>
+                            <div class="message-info">
+                                <p class="message-time">11::47h</p>
+                                <p class="message-pending">4</p>
+                            </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            
+        </main>
+    </div>
+</body>
+</html>
